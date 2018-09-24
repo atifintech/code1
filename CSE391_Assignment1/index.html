@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+
+<title>Personal Website</title>
+
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+
+
+
+<body>
+<div id="header-wrapper">
+	
+
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Personal Page</a></h1>
+		</div>
+
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="#" title="">Home</a></li>
+				<li><a href="#Gallery" title="">Gallery</a></li>
+				<li><a href="#" title="">About Me</a></li>
+				<li><a href="#Skills" title="">Skills</a></li>
+				<li><a href="#" title="">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+	
+
+	<div id="banner" class="container">
+		<span style="color: black">Hi! Im Atif</span><span>
+			Web Designer and Developer<br/>
+		CSE Student</span>
+	</div>
+
+</div>
+
+
+<div id="wrapper">
+	
+	<div id="staff" class="container">
+		<div class="title">
+			<a name="Gallery"></a><h2>Photo Gallery</h2><br>
+			<p>Capturing moments and freezing time to see the beauty of life is something I believe I can do with Photography</p>
+			<p><em>"When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible."</em> - When Harry Met Sally, 1989
+			</p> 
+		</div>
+
+		<div class="boxA"><img src="images2/pic10.jpg" width="300" height="450" alt="" /></div>
+		<div class="boxB"><img src="images2/pic9.jpg" width="300" height="450" alt="" /></div>
+		<div class="boxC"><img src="images2/pic6.jpg" width="300" height="450" alt="" /></div>
+	</div>
+
+	<div id="page" class="container">
+		<div class="boxA">
+
+			<h2>Other Profile Links<br />
+				<span>Click to Go :</span></h2>
+			<p>Here are some links to my Piazza and Soundcloud accounts with Brac University Site.</p>
+
+			<ul class="style4">
+				<li class="first"><a href="https://www.bracu.ac.bd/" target="_blank">Brac University</a></li>
+				<li><a href="https://github.com/saimtiazm" target="_blank">Github</a></li>
+				<li><a href="#https://soundcloud.com/atif-imtiaz" target="_blank" >Soundcloud</a></li>
+			</ul>
+		</div>
+
+		<div class="boxB">
+			<h2>Important Dates<br />
+				<span>Do Not Forget </span></h2>
+			
+			<ul class="style3">
+				<li class="first">
+					<p class="date"><a href="#">Jun<b>6</b></a></p>
+					<h3>The Day I was Born</h3>
+					<p><a href="#">Yes Im quite the narcissist.</a></p>
+				</li>
+				<li>
+					<p class="date"><a href="#">Jan<b>26</b></a></p>
+					<h3>The Day Mohakashchari was Released</h3>
+					<p><a href="#">Someday this day will matter to more than just me.</a></p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="boxC">
+			<h2>Top 5 Favourite Bands<br />
+				<span>Only Bangladeshi</span></h2>
+			<ul class="style4">
+				<li class="first"><a href="#">Conclusion</a></li>
+				<li><a href="#">Karnival</a></li>
+				<li><a href="#">Vinyl</a></li>
+				<li><a href="#">Nemesis</a></li>
+				<li><a href="#">Arbovirus</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="welcome" class="container">
+		<div class="title">
+			<a name="Skills"></a><h2>Skillset and Experience</h2>
+		</div>
+
+		<table>
+  <tr>
+    <th style="width:50%">Skill</th>
+    <th>Basic</th>
+    <th>Pro</th>
+  </tr>
+  <tr>
+    <td>Data Structure</td>
+    <td><i class="fa fa-check">Yes</i></td>
+    <td><i class="fa fa-check">Not</i></td>
+  </tr>
+  <tr>
+    <td>Algorithms</td>
+    <td><i class="fa fa-check">Yes</i></td>
+    <td><i class="fa fa-check">Not</i></td>
+  </tr>
+  <tr>
+    <td>Database Management</td>
+     <td><i class="fa fa-check">Yes</i></td>
+    <td><i class="fa fa-check">Not</i></td>
+  </tr>
+  <tr>
+    <td>Automata</td>
+     <td><i class="fa fa-check">Yes</i></td>
+    <td><i class="fa fa-check">Not</i></td>
+  </tr>
+  <tr>
+    <td>UML Designing</td>
+    <td><i class="fa fa-check">Yes</i></td>
+    <td><i class="fa fa-check">Not</i></td>
+  </tr>
+</table>
+<br>
+
+
+		<p>This is my <strong>Personal WebPage</strong>, a project I designed for the CSE391 Course called "Programming of the Internet". I had craeted a <a href="https://piazza.com/class/jm48hfmsot489" rel="nofollow" target="_blank">Piazza Account</a>. The photos webpage are from my <a href="http://fotogrph.com/">Facebook Account</a>. </p>
+	</div>
+</div>
+
+<div id="copyright" class="container">
+	
+<p>Date and Time this document was last modified with Page Location</p>
+<p>
+<button class="button button5" onclick="myFunction()">Click To Know</button>
+</p>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+
+
+
+</div>
+</body>
+
+<script>
+function myFunction() {
+    var x = document.lastModified;
+    document.getElementById("demo").innerHTML = x;
+    var x = location.href;
+    document.getElementById("demo2").innerHTML = x;
+}
+</script>
+</html>
